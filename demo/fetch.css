@@ -1,0 +1,33 @@
+.table {
+    display: table;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.row {
+    display: table-row;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid #333;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.row:hover {
+    background-color: #ddd;
+}
